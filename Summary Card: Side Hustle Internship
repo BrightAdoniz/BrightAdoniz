@@ -1,0 +1,213 @@
+
+
+<!-- Challenge by Frontend Mentor(Faruq) -->
+<!-- Author: Bright Chinenyeze -->
+<!-- Email: Brightchinenyeze@gmail.com -->
+<!-- Role:  Front End Development Intern  -->
+
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- project name -->
+    <title>Side Hustle Capstone Project - Card Component</title>
+
+    <!-- CSS link of the project style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+    <!-- project description -->
+    <meta name="side Hustle" description="Capstone Project for week two internship">
+    <meta name="card components" description="developed by Front End Intern Group 13">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&family=Roboto:ital,wght@0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Robot', 'Red Hat Display' sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #eee;
+}
+
+.col-md-4 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: wrap;
+    border-radius: 30px 30px 30px 30px;
+    padding-top: 60px;
+}
+
+/* card title start */
+.card-title h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 14;
+    font-family: poppins;
+    color: black;
+}
+/* card title end */
+
+
+/* card content */
+.card-content {
+    padding: 20px 25px 20px 25px;
+}
+/* card content end */
+
+
+.card-content p {
+    color: lightslategrey;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Red hat display';
+}
+
+
+/* card start */
+.card {
+    width: 325px;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+}
+/* card end */
+
+/* card image start */
+.card-image {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+/* card image end */
+
+
+/* card payment button */
+.btn-primary {
+    margin-bottom: 30px;
+    background-color:  #3829e0;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0 8px 8px -4px #7280a7;
+    cursor: pointer;
+}
+
+
+
+/* cancel order */
+.cancel-order {
+    margin-bottom: 30px;
+}
+
+.cancel-order p {
+    color: #7280a7;
+    font-weight: 700;
+}
+
+
+/* order details */
+.order-detail {
+    background: #f2f2f2;
+    padding: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.order-detail img {
+    width: 30px;
+}
+
+.order-detail p.annual {
+    margin-left: -25px;
+    color: black;
+    font-weight: bold;
+}
+
+.order-detail span {
+    color: #666666;
+    font-size: 16px;
+}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- column width -->
+            <div class="col-md-4">
+                <!-- the card body -->
+                <div class="card">
+                    <!-- the card header top image -->
+                    <div class="card-image">
+                        <!-- the image url -->
+                        <img src="images\illustration-hero.svg" alt="card hero">
+                    </div>
+                    <!-- the card order summary title -->
+                    <div class="card-title">
+                        <h3>Order summary</h3>
+                    </div>
+                    <!-- the card order summary content/description -->
+                    <div class="card-content">
+                        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                    </div>
+                    <!-- the card order details -->
+                    <div class="order-detail">
+                        <img src="images\icon-music.svg" alt="music icon">
+                        <p class="annual">Annual Plan
+                            <span>$59.99/Year</span>
+                        </p>
+                        <p><a href="#">Change</a></p>
+                    </div>
+                    <!-- the card payment button -->
+                    <div class="payment">
+                        <div class="button btn-primary">Proceed to Payment</div>
+                    </div>
+                    <!-- the card cancellation link -->
+                    <div class="cancel-order">
+                        <p><a href="#">Cancel Order</a></p>
+                    </div>
+                    <!-- end of cancel-order -->
+                </div>
+                <!-- end of card -->
+            </div>
+            <!-- end of col -->
+        </div>
+        <!-- end of row -->
+    </div>
+    <!-- end of container -->
+    
+</body>
+<!-- end of programme body -->
+</html>
