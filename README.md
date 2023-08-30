@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @BrightAdoniz
 - 👀 I’m interested in UI/UX and frontend development
-- 🌱 I’m currently learning css
+- 🌱 I’m currently learning flutter
 - 💞️ I’m looking to collaborate
 - 📫 How to reach me; IG @brightAdoniz
 
